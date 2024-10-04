@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- Barra lateral esquerda -->
+        <aside class="sidebar">
+            <h2>Sua Biblioteca</h2>
+            <ul>
+                <li><a href="#">Playlists</a></li>
+                <li><a href="#">Podcasts</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Álbuns</a></li>
+            </ul>
+        </aside>
+
+        <!-- Conteúdo Principal -->
+        <div class="content">
+            <!-- Cabeçalho com botões de controle -->
+            <header class="header">
+                <div class="header-buttons">
+                    <button class="btn">O que você quer ouvir?</button>
+                </div>
+                <div class="user-options">
+                    <button class="btn-secondary">Inscrever-se</button>
+                    <button class="btn-secondary">Entrar</button>
+                </div>
+            </header>
+
+            <!-- Seção de Artistas Populares -->
+            <section class="section">
+                <h2>Artistas Populares</h2>
+                <div class="artists">
+                    <div class="artist">
+                        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3nxAmk-default.jpg" alt="Artista 1">
+                        <p>Turma do Pagode</p>
+                    </div>
+                    <div class="artist">
+                        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0FsQXS-default.jpg" alt="Artista 2">
+                        <p>Jorge e Matheus</p>
+                    </div>
+                    <div class="artist">
+                        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0eDu7K-default.jpg" alt="Artista 3">
+                        <p>Hungria</p>
+                    </div>
+                    <div class="artist">
+                        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO4bQI7e-default.jpg" alt="Artista 4">
+                        <p>MC Ryan SP</p>
+                    </div>
+                    <div class="artist">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02e5baa9eb08d02b20da1d5f44" alt="Artista 5">
+                        <p>Baitaca</p>
+                    </div>
+                    <div class="artist">
+                        <img src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1TKh7G-default.jpg" alt="Artista 6">
+                        <p>Armandinho</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção de Álbuns Populares -->
+            <section class="section">
+                <h2>Álbuns Populares</h2>
+                <div class="albums">
+                    <div class="album">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273497e68476e7062b1bf5ea83f" alt="Álbum 1">
+                        <p>Racionais</p>
+                    </div>
+                    <div class="album">
+                        <img src="https://i.scdn.co/image/ab67616100005174eaf21a117e30c069e493dff1" alt="Álbum 2">
+                        <p>Thê Garotos</p>
+                    </div>
+                    <div class="album">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273207f6f89f7fe30b280a5e97d" alt="Álbum 3">
+                        <p>Gusttavo Lima</p>
+                    </div>
+                    <div class="album">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02680345244dcab673f3a1389d" alt="Álbum 4">
+                        <p>Marilha Mendonça</p>
+                    </div>
+                    <div class="album">
+                        <img src="https://i.scdn.co/image/ab67616d0000b27391569283b9dfc8b5ec749908" alt="Álbum 5">
+                        <p>Garotos de Ouro</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Barra de controle de música -->
+        <footer class="music-bar">
+            <div class="music-info">
+                <img src="https://i.scdn.co/image/ab67616100005174eaf21a117e30c069e493dff1" alt="Capa da música">
+                <div class="song-details">
+                    <p>É Problema Meu</p>
+                    <p>Tchê Garotos</p>
+                </div>
+            </div>
+            <div class="controls">
+                 <audio controls>
+                    <source src="https://ssrpde.ytjar.xyz/rr3---sn-4g5ednd7.googlevideo.com/videoplayback?expire=1728066680&ei=GOD_Zq7GFumN6dsP_ainyAE&ip=85.234.167.182&id=o-AC48h8c36_kE1TpsDFe7gIUhzNjxbC3z4ieuHIb0mqxy&itag=140&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&gcr=de&bui=AXLXGFR51FhpWMIzYNGFSg3nKNA6ecVCtj6iWkLsjAFpD1lrg_OGWGy9sUi5cdCmt6kbJX3KlCjIwyVo&spc=54MbxcofmPHv2m2spvxI6OOypkFF0b6_NszFXMInrO_rD_k&vprv=1&svpuc=1&mime=audio%2Fmp4&ns=J1ybXK5MHOQIQaNTvKfIrAwQ&rqh=1&gir=yes&clen=3144230&dur=194.106&lmt=1587209410922200&keepalive=yes&fexp=51300760&c=WEB&sefc=1&txp=1311222&n=oAfmlswfYC8Zzg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cgcr%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgSga9yr1iKYMenJ6bbFCFLwvXKGjCHynbzXbUtiEGmksCIQC_JrJf-4FuwGMk_sl52yqcdbkV7fcxLjgr_BIVxBvUUw%3D%3D&redirect_counter=1&rm=sn-4g5ezl7s&rrc=104&req_id=7e3b8046c7d1a3ee&cms_redirect=yes&cmsv=e&ipbypass=yes&met=1728045084,&mh=NM&mip=2a01:4f8:c0c:6e58:7873:86d9:fadb:ef7b&mm=31&mn=sn-4g5ednd7&ms=au&mt=1728044699&mv=m&mvi=3&pl=52&rms=au,au&lsparams=ipbypass,met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=ACJ0pHgwRQIhAIMlKZg0oS_f1KryA5P7pQNO_SABC7A0dJGfphxLuRq-AiBRaZB8YvoS64aXBX5TfyojV5tR9EX2WGgVD0v7NCcdfQ%3D%3D" type="audio/mpeg">
+                </audio>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
